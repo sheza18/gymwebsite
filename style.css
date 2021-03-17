@@ -1,0 +1,342 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(./images/pic3.jpg) no-repeat;
+    color: rgb(2, 2, 2);
+    height: 70px;
+margin-top:5px;
+width: 100%;
+background-color: grey;
+background-size: cover;
+
+}
+.left {
+    
+display: inline-block;
+position: absolute;
+    left: 20px;
+    top: 20px;
+    color: rgb(0, 0, 0);
+}
+.left img {
+  margin: 0px 25px;
+    color: white;
+    width: 78px;
+    
+    
+}
+.left div {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+    font-family: 'Sansita Swashed', cursive;
+}
+.middle {
+    display: block;
+    width: 38%;
+    margin: 12px auto;
+  /*  border: 2px solid green; */
+    top: 20px;
+}
+.right {
+    display: inline-block;
+   
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+    
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 253, 253);
+}
+.navbar li {
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    
+}
+.navbar li a {
+     text-decoration: none;
+     
+    color: rgb(14, 8, 8);
+    padding: 7px 8px;
+    
+}
+
+
+.container {
+  /* border: 2px solid rgb(224, 224, 224); */
+   margin: 50px 50px;
+   padding: 50px;
+   width: 15%;
+   border-radius: 20px;
+
+   color: rgb(0, 0, 0);
+  
+}
+.form-group  input{
+text-align: center;
+display: block;
+width: 30%;
+padding: 10px;
+border: 2px solid black;
+margin: 11px auto;
+
+}
+.container #submit {
+   border: 7px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    align-items: center;
+        padding: 8px;
+        margin: 20px 45px; 
+        width: 20%; 
+        height: 10%; 
+        background-color: grey;  
+        margin-left: 55px;
+
+}
+.container h1 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: white;
+    color: rgb(8, 7, 7);
+width: 50%;
+height: 60%;
+left: 45px;
+
+}
+
+
+
+/*
+#fitness center{
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+   height: 1000vh;
+    position: relative;
+    margin-top: 500px;
+} 
+#fitness center h2{
+    text-align: center;
+    color:red;
+}
+#pic1 .row .column img {
+    width: 50%;
+    height: 500px;
+    margin-left: 8px;
+    align-items: center;
+}
+.pic1 .column p{
+    font-size: 2.5rem;
+    float: right;
+    width: 50px;
+    height: 80%;
+    
+    font-size: 1.5rem;
+}
+
+.pic2 .column p{
+   font-size: 2.5rem;
+   float: right;
+    text-align: justify;
+    width: 40%;
+    height: 100%;
+}
+#pic2 .row .column img {
+    width: 30%;
+    height: 500px;
+}
+
+.pic3 .column p{
+    font-size: 2.5rem;
+    float: right;
+     text-align: justify;
+     width: 50px;
+    height: 80%;
+ }
+ #pic3 .row .column img {
+    width: 30%;
+    height: 500px;
+    left: 7px;
+}
+ .pic4 .column p{
+    font-size: 1.5rem;
+    float: right;
+     text-align: justify;
+     width: 60%;
+ }
+ #pic4 .column img {
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+ .pic5 .column p{
+    font-size: 2.5rem;
+    align-items: right;
+     text-align: justify;
+     width: 30%;
+     height: 20%;
+ }
+ #pic5 .row .column img {
+    width: 10%;
+    height: 100px;
+    left: 15px;
+} 
+ #aboutus h1 {
+    margin-bottom: 2.5rem;
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #772222;
+    line-height: 1.1;
+    text-align: center;
+ } 
+ #fitnescenter img{
+width: 100%
+ }
+ 
+#pic4 .column img {
+    width: 35%;
+    height: 60%; 
+    margin-left: 18px;
+}
+#pic4 .column p {
+    font-size: 1.5rem;
+     text-align: justify;
+     width: 30%;
+     height: 20%;
+     margin-left: 18px; 
+}
+#pic1 .row .column img {
+    width: 35%;
+    height: 60%; 
+    margin-left: 18px;
+    margin-top: 200px;
+}
+#pic1 .column p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 30%;
+    height: 50%; 
+    margin-left: 18px;
+}
+#pic2 .column img {
+    width: 35%;
+    height: 60%;
+    margin-left: 18px;
+}
+#pic2 .column p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 30%;
+    height: 20%; 
+    margin-left: 18px; 
+}
+#pic3 .column img {
+    width: 35%;
+    height: 60%; 
+    margin-left: 18px;
+}
+#pic3 .column p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 30%;
+    height: 20%; 
+    margin-left: 18px; 
+}
+#pic4 .column img {
+    width: 35%;
+    height: 60%; 
+    margin-left: 18px;
+}
+#pic4 .column p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 30%;
+    margin-left: 18px;
+    height: 20%;  
+}
+#pic5 .column img {
+    width: 35%;
+    height: 60%;
+    margin-left: 18px; 
+}
+#pic5 .column p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 30%;
+    height: 20%; 
+    margin-left: 18px; 
+}
+#sidebar {
+    float:right;
+    color: black;
+    margin-right: 18px;
+}
+#sidebar .components ol li a{
+    color: blue;
+}
+#fitness center {
+    float: left;
+    margin-top: 400px;
+    width: 50%;
+    height: 50%;
+}
+#sidebar .components h4 {
+    margin-right: 18px;
+    
+}
+#aboutus h6 {
+    font-size: 1.5rem;
+    margin-left: 18px;
+    text-align: center;
+    cursor: pointer;
+} */
+ h1 {
+    text-align: center;
+    margin-top: -20px;
+   
+    
+}
+#fitness {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 15%;
+    background-color: rgb(46, 40, 40);
+    
+    
+    
+}
+#fitness .card {
+    margin-left: 75px;
+    margin-right: 75px;
+    
+}
+
+
+#aboutus {
+    width: 50%;
+   height: 50%;
+   display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    border-radius: 15px;
+    display: flex;
+height: 250px;
+margin-top: 18px;
+
+}
+#aboutus h4 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-top: 15px;
+}
